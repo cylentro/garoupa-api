@@ -1,0 +1,12 @@
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+scikit-learn>=1.0.0  # Sesuaikan dengan versi yg Anda gunakan saat training jika perlu
+nltk>=3.6.0
+joblib>=1.1.0
+pydantic>=1.9.0
+numpy>=1.20.0
+sqlalchemy>=1.4.0,<2.0.0 # Pinning to <2.0 for now for broader compatibility, can update later
+passlib[bcrypt]>=1.7.4
+python-jose[cryptography]>=3.3.0
+python-multipart>=0.0.5 # For form data in token endpoint
+python-dotenv>=0.19.0 # Or a more recent version
