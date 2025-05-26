@@ -52,7 +52,7 @@ TRAINING_DATA_DIR = os.path.join(PROJECT_ROOT, "data")
 
 # TOP_N_PREDICTIONS: Specifies the number of top predictions (category and score)
 # to return by the prediction API.
-TOP_N_PREDICTIONS = 5
+TOP_N_PREDICTIONS = 12
 
 
 # --- Logging Configurations ---
