@@ -95,7 +95,7 @@ async def get_current_client_with_swagger_ui_fix(
     x_authorization: str = Header(
         None,
         alias="Authorization",
-        description="Format 'Bearer <token>'"
+        description="Format 'Bearer \<token\>'"
     ),
     # This part reuses our original dependency to perform the actual security check
     current_client: ApiClient = Depends(get_current_active_client)
